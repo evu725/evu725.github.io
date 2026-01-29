@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Emily Vu</title>
+  <link rel="stylesheet" href="style.css" />
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+  />
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <nav class="navbar">
+        <div class="nav-left">
+            <a href="#" class="nav-branding">emily vu</a>
+            <ul class="nav-menu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="social-buttons">
+            <a href="https://github.com/evu725" target="_blank" class="btn">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/emilyvuu" target="_blank" class="btn">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HOME -->
+    <section class="home">
+        <div class="container">
+            <h1>hi, i'm emily ◡̈</h1>
+            <div class="home-role">
+                <p>A multidisciplinary <span>developer</span> and <span>designer</span> (sometimes) with a passion for creating engaging, entertaining user experiences. ✨</p>
+            </div> 
+          <div class="home-buttons">
+            <a href="https://www.linkedin.com/in/emilyvuu">
+              <button class="btn btn-primary">let's connect!</button>
+            </a>
+            <a href="#contact">
+              <button class="btn btn-secondary">leave a message</button>
+            </a>
+          </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+      <h1>About Me</h1>
+      <div class="container about-container">
+        <div class="about-image">
+            <img src="img/cat.jpg" alt="my cat pic" id="cat-pic">
+        </div>
+        <div class="about-text">
+            <h2>Nice to meet you!</h2>
+            <h3>a little about me 💭₊˚ෆ</h3>
+            <p>I’m a software engineer from Central New Jersey, focused on creating experiences through 
+              building applications. My journey began when I was enrolled in a technology class in middle school, where I learned coding on Code.org. 
+              I quickly discovered that I loved the creativity and problem-solving that comes with building applications, 
+              which inspired me to pursue it as a career path. I’ve come a long way since then. I initially attended Rutgers University to 
+              pursue a BS in Computer Science but later decided to take a break. Currently, I’m a fellow 
+              at The Marcy Lab School, a program focused on software engineering, where I’ll be learning 
+              skills in JavaScript, HTML/CSS, and React.
+            </p>
+
+            <h3>when i'm not coding</h3>
+            <p>
+                When I’m away from my desk, you can usually find me exploring new music, binge-watching 
+                pop culture favorites, or finding fun ways to make everyday life a little more colorful!
+            </p>
+            <p>⸜(｡˃ ᵕ ˂ )⸝⋆˙⟡♡ </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="projects" id="projects">
+      <div class="container">
+        <h1>Personal Projects</h1>
+        <ul class="card-list">
+          <li class="card">
+            <a href="#" class="card-picture">
+              <img src="img/task-manager.png" alt="cli project" class="card-img"/>
+            </a>
+            <h3 class="card-title">Rock, Paper, Scissors</h3>
+            <p class="tech-stack">JavaScript</p>
+            <p class="project-info">A simple command-line task manager where users can play rounds and view statistics.</p>
+            <div class="card-info">
+              <p>12/2025 - 01/2026</p>
+              <a href="https://github.com/evu725/swe-project-1-cli-app" target="_blank" class="btn" id="card-github">
+                  <i class="fab fa-github"></i>
+              </a>
+            </div>
+          </li>
+          <li class="card">
+            <a href="#" class="card-picture">
+              <img src="img/brewery.png" alt="brewery project" class="card-img" />
+            </a>
+            <h3 class="card-title">Brewery Finder</h3>
+            <p class="tech-stack">React / CSS</p>
+            <p class="project-info">A data dashboard that displays all type of brewery located in the world.</p>
+            <div class="card-info">
+              <p>07/2025</p>
+              <a href="https://github.com/evu725/data-dashboard-2" target="_blank" class="btn" id="card-github">
+                  <i class="fab fa-github"></i>
+              </a>
+            </div>
+          </li>
+          <li class="card">
+            <a href="#" class="card-picture">
+              <img src="img/flashcards.png" alt="flashcard project" class="card-img" />
+            </a>
+            <h3 class="card-title">Movie Flashcards</h3>
+            <p class="tech-stack">React / CSS</p>
+            <p class="project-info">A flashcard app where users can flip cards to test their knowledge on famous movie quotes.</p>
+            <div class="card-info">
+              <p>06/2025</p>
+              <a href="https://github.com/evu725/flashcards-2" target="_blank" class="btn" id="card-github">
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <h1>Let's Connect! 💌</h1>
+        <p>Want to work together or just have a coffee chat? Feel free to reach out on social media or send me a message here!</p>
+        <form
+          action="https://formspree.io/f/xaqjwkjn"
+          method="POST"
+        >
+          <div class="row">
+            <input type="text" name="firstName" placeholder="First Name"/>
+            <input type="text" name="lastName" placeholder="Last Name"/>
+          </div>
+          <div class="row">
+            <input type="email" name="email" placeholder="Email"/>
+          </div>
+          <div class="row">
+            <textarea name="message" placeholder="Message"></textarea>
+          </div>
+            <button type="submit">Send</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 Emily Vu</p>
+    </div>
+  </footer>
+</body>
+</html>
