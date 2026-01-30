@@ -444,7 +444,7 @@ footer p {
     grid-template-columns: 1fr;
   }
   .about{
-    flex-direction:column;
+    flex-direction: column;
   }
 
   .about-image, .about-text {
